@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>radial-gradient</title>
+  <link rel="stylesheet" href="./radialGradient.css">
+</head>
+
+<body>
+  <h3>radial-gradient預設為橢圓(ellipse)</h3>
+  <hr>
+  <div>本範例由內至外之顏色皆為藍到紅</div>
+  <hr>
+  <div class="div_1">1</div>
+  <div>(div_1只有設定高，為長方形)預設radial-gradient為橢圓形</div>
+  <hr>
+  <div class="div_2">2</div>
+  <div>(div_2設定高與寬，為正方形)預設為橢圓的radial-gradient變為圓形</div>
+  <hr>
+  <div class="div_3">3</div>
+  <div>(div_3為正方形)預設為橢圓，參數closest-side為中心點到<b>最近邊</b>為漸變結束位置</div>
+  <div>由於div_3為正方形，參數farthest-side(最遠邊)效果同closest-side</div>
+  <div>此外，div_3為正方形，參數farthest-corner(最遠角)效果同closest-corner(最近角)</div>
+  <hr>
+  <div class="div_4">4</div>
+  <div>(div正方形)漸變為圓形circle</div>
+  <div>圓形漸層由中心點出發到最遠邊為結束位置</div>
+  <div>參數設定at top right表示，圓圖形中心點為左上角</div>
+  <hr>
+  <div class="div_5">5</div>
+  <div>(div正方形、漸變為圓形)</div>
+  <div>圓圖形中心點為左上角</div>
+  <div>圓形漸層由中心點出發到最近邊為結束位置</div>
+  <div>由於最近邊為中心點，漸變結束位置即中心點，故無藍色漸變至紅色區塊</div>
+  <hr>
+  <div class="div_6">6</div>
+  <div>div_6(circle)同div_7(ellipse)，由於參照正方型邊以及角，故圓圖形直徑相同</div>
+  <hr>
+  <div class="div_7">7</div>
+  <div>div_6(circle)同div_7(ellipse)，由於參照正方型邊以及角，故圓圖形直徑相同</div>
+  <hr>
+  <div class="div_8">8</div>
+  <div>(中心點為左上之橢圓)藍色結束位置同紅色起始位置，故無漸變</div>
+  <hr>
+  <div class="div_9">9</div>
+  <div>(中心點為中上之圓形)漸變結束位置為最遠邊之差異</div>
+  <hr>
+  <div class="div_10">10</div>
+  <div>(中心點為中上之橢圓形)漸變結束位置為最遠邊之差異</div>
+  <hr>
+  <div class="div_11">11</div>
+  <div>(中心點為中上之橢圓形)漸變結束位置為最近邊之差異，無藍色</div>
+  <hr>
+  <div class="div_12">12</div>
+  <div>(長方形div)橢圓和圓形間farthest-side差異</div>
+  <hr>
+  <div class="div_13">13</div>
+  <div>(長方形div)橢圓和圓形間farthest-side差異</div>
+  <hr>
+  <div class="div_14">14</div>
+  <div>(長方形div)橢圓和圓形間farthest-side差異</div>
+  <hr>
+  <div class="div_15">15</div>
+  <div>(長方形div)橢圓和圓形間farthest-side差異</div>
+</body>
+
+</html>

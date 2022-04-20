@@ -1,0 +1,144 @@
+.div_1,
+.div_2,
+.div_3,
+.div_4,
+.div_5,
+.div_6,
+.div_7,
+.div_8,
+.div_9,
+.div_10,
+.div_11,
+.div_12,
+.div_13,
+.div_14,
+.div_15,
+.div_16,
+.div_17 {
+    font-size: 40px;
+}
+
+/* A radial gradient doesn’t have to start at the default center */
+.div_1 {
+    height: 400px;
+    margin-left: 30px;
+    background-image: radial-gradient(blue, red);
+}
+
+.div_2 {
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    background-image: radial-gradient(blue, red);
+}
+
+.div_3 {
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    background-image: radial-gradient(closest-side, blue, red);
+}
+
+.div_4 {
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    background-image: radial-gradient(circle farthest-side at top right,
+            blue,
+            red);
+}
+
+.div_5 {
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    background-image: radial-gradient(circle closest-side at top right,
+            blue,
+            red);
+}
+
+.div_6 {
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    background-image: radial-gradient(circle at top right, blue, red);
+}
+
+.div_7 {
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    background-image: radial-gradient(ellipse at top right,
+            blue,
+            red);
+}
+
+.div_8 {
+    width: 400px;
+    height: 400px;
+    margin-left: 30px;
+    background-image: radial-gradient(at top right, blue 20%, red 20%);
+}
+
+.div_9 {
+    width: 700px;
+    height: 700px;
+    margin-left: 30px;
+    background-image: radial-gradient(circle farthest-side at top center,
+            blue,
+            red);
+}
+
+.div_10 {
+    width: 700px;
+    height: 700px;
+    margin-left: 30px;
+    background-image: radial-gradient(ellipse farthest-side at top center,
+            blue,
+            red);
+}
+
+.div_11 {
+    width: 700px;
+    height: 700px;
+    margin-left: 30px;
+    background-image: radial-gradient(ellipse closest-side at top center,
+            blue,
+            red);
+}
+
+.div_12 {
+    width: 1400px;
+    height: 400px;
+    margin-left: 30px;
+    background-image: radial-gradient(circle farthest-side at top right,
+            blue,
+            red);
+}
+
+.div_13 {
+    width: 1400px;
+    height: 400px;
+    margin-left: 30px;
+    background-image: radial-gradient(ellipse farthest-side at top right,
+            blue,
+            red);
+}
+
+.div_14 {
+    width: 500px;
+    height: 1600px;
+    margin-left: 30px;
+    background-image: radial-gradient(circle farthest-side at top right,
+            blue,
+            red);
+}
+
+.div_15 {
+    width: 500px;
+    height: 1600px;
+    margin-left: 30px;
+    background-image: radial-gradient(ellipse farthest-side at top right,
+            blue 20%,
+            red 70%);
+}
